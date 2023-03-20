@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.container {
+    width: 40rem;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #cccccc;
+    width: 40rem;
+    margin: .50rem auto 2rem;
+    min-height: 50px;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: large;
+}
+
+.login {
+    background-color: #2b78e4;
+    color: white;
+    padding: .25rem;
+    box-shadow: 0cap;
+    cursor: pointer;
+    box-shadow: 2px 3px 1px black;
+}
+
+.searchbar {
+    width: 20rem;
+}
+
+.btn {
+    background-color: #ffd966;
+    min-width: 5rem;
+    min-height: 2rem;
+    box-shadow: 2px 3px 1px black;
+    cursor: pointer;
+}
+
+.btnDef {
+    background-color: #93c47d;
+    min-width: 9rem;
+    min-height: 2rem;
+    margin-top: 1rem;
+    box-shadow: 2px 3px 1px black;
+    cursor: pointer;
+}
+
+span {
+    color: #1b609c;
+    text-decoration: underline;
+}
+
+main {
+    min-height: 200px;
+    min-width: 100px;
+    flex: 3;
+}
+
+aside {
+    min-height: 100px;
+    min-width: 100px;
+    border: 2px solid black;
+    flex: 1;
+    padding: 1rem;
+}
+
+.dojonaryDefine {
+    min-height: 200px;
+    min-width: 30px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.define1, .define2 {
+    text-align: center;
+}
